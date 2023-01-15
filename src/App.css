@@ -4,26 +4,33 @@
 
 .nav-bar {
   background-color: #282c34;
-  min-height: 10vh;
+  height: 16vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .main {
   background: linear-gradient(#c52e1a,#352236);
-  min-height: 90vh;
+  min-height: 84vh;
 }
 
 .name {
-  border: 1px solid blue;
   position: relative;
-  top: 25vh;
-  left: 30vw;
+  top: 15vh;
+  left: 15vw;
   width: fit-content;
   color: white;
   font-size: 6em;
+}
+
+.title {
+  position: relative;
+  top: 15vh;
+  left: 15vw;
+  width: fit-content;
+  color: white;
+  font-size: 2em;
 }
