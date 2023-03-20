@@ -2,16 +2,6 @@
   text-align: center;
 }
 
-.nav-bar {
-  background-color: #282c34;
-  height: 16vh;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .main {
   background: linear-gradient(#c52e1a,#352236);
   min-height: 84vh;

@@ -1,15 +1,25 @@
+import React, { useState } from 'react';
 import './App.css';
-import brlogo from './brlogo.png';
 import TypewriterComponent from 'typewriter-effect';
+import { NavBar } from './components/NavBar.jsx';
 
 function App() {
+  const [activeLink, setActiveLink] = useState('/');
+
+  const handleLinkClick = (link, event) => {
+    event.preventDefault();
+    setActiveLink(link);
+    window.location.href = link;
+  };
+
   return (
     <div className="App">
-      <header className="nav-bar">
-        <img src={brlogo} alt='ben rome logo'/>
-      </header>
+      <NavBar onLinkClick={handleLinkClick}/>
       <div className='main'>
         <div className='name'>Ben Rome</div>
+        {activeLink === '/' && <p>Home</p> }
+        {activeLink === '/about' && <p>About</p> }
+        {}
         <div className='title'>
           <TypewriterComponent
             options ={{

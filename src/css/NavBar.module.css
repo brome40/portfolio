@@ -1,0 +1,27 @@
+.navBar {
+  background-color: #282c34;
+  height: 16vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.navButton {
+  color: white;
+  background-color: #282c34;
+  border: none;
+  font-size: 1em;
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.navButton:hover {
+  color: red;
+  transform: scale(1.05);
+}
+
+.active {
+  color: gold;
+}
