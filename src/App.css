@@ -2,9 +2,15 @@
   text-align: center;
 }
 
-.main {
+.home {
   background: linear-gradient(#c52e1a,#352236);
-  min-height: 84vh;
+  min-height:  83.8vh;
+  padding-top: 20vh;
+}
+
+.about {
+  min-height: 83.8vh;
+  background: linear-gradient(#352236,#15054e);
 }
 
 .name {
@@ -23,4 +29,15 @@
   width: fit-content;
   color: white;
   font-size: 2em;
+}
+
+.intro {
+  color: white;
+  /* border: 1px solid lime; */
+  width: 350px;
+  text-align: left;
+  font-size: 1.3em;
+  position: relative;
+  left: 60%;
+  top: 10em;
 }

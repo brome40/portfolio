@@ -1,9 +1,12 @@
 .navBar {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
   background-color: #282c34;
   height: 16vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -14,12 +17,16 @@
   border: none;
   font-size: 1em;
   padding: 15px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .navButton:hover {
   color: red;
   transform: scale(1.05);
+}
+
+.navButton:last-of-type {
+  margin-right: 40px;
 }
 
 .active {
