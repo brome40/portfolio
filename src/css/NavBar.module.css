@@ -25,7 +25,7 @@
   transform: scale(1.05);
 }
 
-.navButton:last-of-type {
+.navButton:last-child {
   margin-right: 40px;
 }
 

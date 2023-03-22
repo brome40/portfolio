@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from 'react'
-import { Link, animateScroll as scroll } from "react-scroll"
+import React from 'react'
+import { Link } from "react-scroll"
 import styles from '../css/NavBar.module.css'
 import logo from '../brlogo.png'
 
 export const NavBar = ({ activeLink, onLinkClick }) => {
 
-  const handleLinkClick = (link) => {
-    onLinkClick(link);
+  const handleResumeButtonClick = () => {
+    const filePath = 'portfolio/BenRomeResume.pdf';
+    window.open(filePath, '_blank');
   }
 
   return (
@@ -30,9 +31,16 @@ export const NavBar = ({ activeLink, onLinkClick }) => {
           </Link>
           <Link
             className={styles.navButton}
+            to="contact"
           >
             Contact
           </Link>
+          <button
+            className={styles.navButton}
+            onClick={handleResumeButtonClick}
+          >
+            Resume
+          </button>
         </div>
       </header>
     </>

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 
 .home {
@@ -18,7 +19,6 @@
   top: 15vh;
   left: 15vw;
   width: fit-content;
-  color: white;
   font-size: 6em;
 }
 
@@ -27,13 +27,10 @@
   top: 15vh;
   left: 15vw;
   width: fit-content;
-  color: white;
   font-size: 2em;
 }
 
 .intro {
-  color: white;
-  /* border: 1px solid lime; */
   width: 350px;
   text-align: left;
   font-size: 1.3em;
@@ -41,3 +38,19 @@
   left: 60%;
   top: 10em;
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about h2 {
+  margin-top: 5vh;
+  font-weight: 300;
+}
+
+ .about p {
+  width: 800px;
+  text-align: left;
+ }
