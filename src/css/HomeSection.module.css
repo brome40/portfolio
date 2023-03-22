@@ -1,0 +1,30 @@
+.home {
+  background: linear-gradient(#c52e1a,#352236);
+  padding-top: 20vh;
+  min-height:  83.8vh;
+}
+
+.name {
+  position: relative;
+  top: 15vh;
+  left: 15vw;
+  width: fit-content;
+  font-size: 6em;
+}
+
+.title {
+  position: relative;
+  top: 15vh;
+  left: 15vw;
+  width: fit-content;
+  font-size: 2em;
+}
+
+.intro {
+  width: 350px;
+  text-align: left;
+  font-size: 1.3em;
+  position: relative;
+  left: 60%;
+  top: 10em;
+}
