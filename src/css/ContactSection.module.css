@@ -1,0 +1,34 @@
+.contact {
+  background: linear-gradient(#15054e, #494a49);
+  min-height:  83.8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact h2 {
+  margin-top: 5vh;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.iconLink {
+  display: inline-block;
+  margin: 10px;
+}
+
+.iconContainer {
+  width: 40vw;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon {
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.15);
+}

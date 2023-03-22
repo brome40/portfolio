@@ -4,6 +4,7 @@ import { Element } from 'react-scroll'
 import { NavBar } from './components/NavBar'
 import { HomeSection } from './components/HomeSection'
 import { AboutSection } from './components/AboutSection'
+import { ContactSection } from './components/ContactSection'
 
 function App() {
 
@@ -16,6 +17,9 @@ function App() {
         </Element>
         <Element name='about'>
           <AboutSection />
+        </Element>
+        <Element name='contact'>
+          <ContactSection />
         </Element>
       </div>
     </div>

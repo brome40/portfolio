@@ -16,7 +16,7 @@ export const HomeSection = () => {
           />
         </div>
         <div className={styles.intro}>
-          <p>Hi, I'm Ben. A passionate Software Developer based in Louisville, KY. Thanks for checking out my page!</p>
+          <p>Hi, I'm Ben, a passionate Software Developer based in Louisville, KY. Thanks for checking out my page!</p>
         </div>
     </div>
   );
