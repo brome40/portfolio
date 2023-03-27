@@ -6,7 +6,7 @@ import logo from '../brlogo.png'
 export const NavBar = ({ activeLink, onLinkClick }) => {
 
   const handleResumeButtonClick = () => {
-    const filePath = 'portfolio/BenRomeResume.pdf';
+    const filePath = 'https://brome40.github.io/portfolio/BenRomeResume.pdf';
     window.open(filePath, '_blank');
   }
 
