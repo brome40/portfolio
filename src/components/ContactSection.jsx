@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { CopyrightBar } from './CopyrightBar'
 import styles from '../css/ContactSection.module.css'
 
 export const ContactSection = () => {
@@ -21,6 +22,7 @@ export const ContactSection = () => {
           <p>LinkedIn</p>
         </div>
       </div>
+      <CopyrightBar />
     </div>
   );
 }
