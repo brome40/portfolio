@@ -1,4 +1,5 @@
 import React from 'react'
+import { SkillsArea } from './SkillsArea'
 import styles from '../css/AboutSection.module.css'
 
 export const AboutSection = () => {
@@ -9,8 +10,7 @@ export const AboutSection = () => {
         I'm a senior at the University of Louisville majoring in Computer Information Systems with a concentration in Web
         Development. I'm expecting to graduate in May 2023.
       </p>
-      <ul>
-      </ul>
+      <SkillsArea />
     </div>
   );
 }

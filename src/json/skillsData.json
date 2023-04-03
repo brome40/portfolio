@@ -1,0 +1,36 @@
+{
+  "JavaScript": {
+    "Tasks": [
+      "Introduced in CIS-150: Fundamentals of Information Systems",
+      "Multiple certifications earned on Codecademy.com",
+      "Used extensively in TypeScript and React projects"
+    ]
+  },
+  "TypeScript": {
+    "Tasks": [
+      "Used extensively during my internship at Small Batch AI",
+      "Earned certification on Codecademy.com"
+    ]
+  },
+  "Python": {
+    "Tasks": [
+      "Earned an A+ in CIS-443: Analytics Programming",
+      "Built Python call flow application using the Telnyx API"
+    ]
+  },
+  "C#": {
+    "Tasks": [
+      "Earned an A+ in two C# programming courses (CIS-199/200)",
+      "Currently taking a course in ASP.NET MVC (CIS 411)",
+      "Contributed to open source documentation (Codecademy Docs)"
+    ]
+  },
+  "React": {
+    "Tasks": [
+      "Earned certification on Codecademy.com",
+      "Used extensively during my internship at Small Batch AI",
+      "Completed Josh Comeau's online course 'The Joy of React'",
+      "Built this website from scratch!"
+    ]
+  }
+}
