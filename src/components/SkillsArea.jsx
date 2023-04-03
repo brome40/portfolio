@@ -13,7 +13,7 @@ export const SkillsArea = () => {
 
   return (
     <div>
-      <h2>Core Skills</h2>
+      <h2 className={styles.header}>Core Skills</h2>
       <div>
         <Skill
           src={jslogo}
