@@ -1,0 +1,72 @@
+.projects {
+  background: linear-gradient(#15054e, #db3030);
+  min-height: 83.8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects h2 {
+  margin-top: 5vh;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.slideTitleBar {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 40%;
+  height: 5vh;
+}
+
+.slideTitleBar button {
+  height: 4vh;
+  width: fit-content;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.5em;
+}
+
+.slideTitleBar button:disabled {
+  color: grey;
+}
+
+.slideTitle {
+  font-size: 1.25em;
+  margin: 0 5vw;
+}
+
+.slideDesc {
+  margin: 2vh 0;
+  width: 30vw;
+}
+
+.slideProjects {
+  width: 35vw;
+  /* border: 1px solid orange; */
+}
+
+.project {
+  display: flex;
+  padding: 1em 0;
+  border-radius: 1em;
+  margin: 0.5em 0;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid orange;
+}
+
+.project button {
+  border: none;
+  border-radius: 0.25em;
+  padding: 0.75em;
+  background-color: blue;
+  color: yellow;
+  font-size: .9em;
+}
+.project div {
+  /* border: 1px solid darkcyan; */
+  width: 10vw;
+}

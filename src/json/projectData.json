@@ -1,0 +1,33 @@
+{
+  "CIS 199": {
+    "title": "CIS 199: Software Development I",
+    "description": "Introduction to object-oriented programming in C#. Produced console and form applications using concepts such as classes, methods, and inheritance.",
+    "projects": [
+      {
+        "name": "Program 1 (Console)",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS199/Program1.zip",
+        "gitLink": "https://github.com/brome40/CIS-199-Program-1/tree/master"
+      },
+      {
+        "name": "Program 2 (Form)",
+        "zipPath": "",
+        "gitLink": "https://github.com/brome40/CIS-199-Program-2"
+      }
+    ]
+  },
+  "CIS 200": {
+    "title": "CIS 199: Software Development II",
+    "description": "Continuation of CIS 199. Produced more advanced console and form applications and included concepts like polymorphism and data structures.",
+    "projects": []
+  },
+  "CIS 411": {
+    "title": "CIS 411: Web Application Development",
+    "description": "Introduction to dynamic web applications using the ASP.NET MVC pattern. This involved many technologies such as C#, HTML, CSS, and Javascript.",
+    "projects": []
+  },
+  "Independent React Projects": {
+    "title": "Independent React Projects",
+    "description": "Non-university-related projects I completed while pursuing certifications on the Codecademy platform.",
+    "projects": []
+  }
+}

@@ -25,10 +25,18 @@ export const NavBar = ({ activeLink, onLinkClick }) => {
           <Link
             to='about'
             smooth
-            offset={-155}
+            offset={-135}
             className={styles.navButton}
           >
             About Me
+          </Link>
+          <Link
+            to='project'
+            smooth
+            offset={-155}
+            className={styles.navButton}
+          >
+            Projects
           </Link>
           <Link
             className={styles.navButton}
