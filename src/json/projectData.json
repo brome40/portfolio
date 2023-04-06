@@ -6,19 +6,31 @@
       {
         "name": "Program 1 (Console)",
         "zipPath": "https://brome40.github.io/portfolio/projects/CIS199/Program1.zip",
-        "gitLink": "https://github.com/brome40/CIS-199-Program-1/tree/master"
+        "gitLink": "https://github.com/brome40/CIS-199-Program-1"
       },
       {
         "name": "Program 2 (Form)",
-        "zipPath": "",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS199/Program2.zip",
         "gitLink": "https://github.com/brome40/CIS-199-Program-2"
+      },
+      {
+        "name": "Program 3 (Form)",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS199/Program3.zip",
+        "gitLink": "https://github.com/brome40/CIS-199-Program-3"
+      },
+      {
+        "name": "Program 4 (Console)",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS199/Program4.zip",
+        "gitLink": "https://github.com/brome40/CIS-199-Program-4"
       }
     ]
   },
   "CIS 200": {
-    "title": "CIS 199: Software Development II",
+    "title": "CIS 200: Software Development II",
     "description": "Continuation of CIS 199. Produced more advanced console and form applications and included concepts like polymorphism and data structures.",
-    "projects": []
+    "projects": [
+      
+    ]
   },
   "CIS 411": {
     "title": "CIS 411: Web Application Development",
