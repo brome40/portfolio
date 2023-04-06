@@ -1,7 +1,6 @@
-import React, { useState, useEffect, createElement } from 'react'
+import React, { useState, useEffect } from 'react'
 import styles from '../css/ProjectSection.module.css'
 import ProjectsJSON from '../json/projectData.json'
-import { saveAs } from 'file-saver'
 
 export const ProjectSection = () => {
   const slides = Object.keys(ProjectsJSON);
