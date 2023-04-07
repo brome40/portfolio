@@ -8,6 +8,7 @@ export const ContactSection = () => {
   return(
     <div className={styles.contact}>
       <h2>Contact Me</h2>
+      <p>References available on request!</p>
       <div className={styles.iconContainer}>
         <div>
           <a href="https://github.com/brome40/" target='_blank' rel='noreferrer' className={styles.iconLink}>
