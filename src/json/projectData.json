@@ -54,7 +54,18 @@
   "CIS 411": {
     "title": "CIS 411: Web Application Development",
     "description": "Introduction to dynamic web applications using the ASP.NET MVC pattern. This involved many technologies such as C#, HTML, CSS, and Javascript.",
-    "projects": []
+    "projects": [
+      {
+        "name": "Price Quotation App",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS411/PriceQuotation.zip",
+        "gitLink": "https://github.com/brome40/CIS-411-PriceQuotation"
+      },
+      {
+        "name": "Tip Calculator App",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS411/TipCalculator.zip",
+        "gitLink": "https://github.com/brome40/CIS-411-TipCalculator"
+      }
+    ]
   },
   "Independent React Projects": {
     "title": "Independent React Projects",
