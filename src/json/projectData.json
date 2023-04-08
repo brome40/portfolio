@@ -70,6 +70,17 @@
   "Independent React Projects": {
     "title": "Independent React Projects",
     "description": "Non-university-related projects I completed while pursuing certifications on the Codecademy platform.",
-    "projects": []
+    "projects": [
+      {
+        "name": "Jamming Music App",
+        "zipPath": "",
+        "gitLink": "https://github.com/brome40/jamming"
+      },
+      {
+        "name": "Portfolio (This Site)",
+        "zipPath": "",
+        "gitLink": "https://github.com/brome40/portfolio"
+      }
+    ]
   }
 }

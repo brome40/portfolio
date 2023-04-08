@@ -83,7 +83,7 @@ export const Project = ({ name, zipPath, gitLink }) => {
     <div className={styles.project}>
       <div>{name}</div>
       <button onClick={handleGitButtonClick}>GitHub</button>
-      <button onClick={() => handleDownload(zipPath)}>Download Zip</button>
+      <button onClick={() => handleDownload(zipPath)} disabled={zipPath === ""}>Download Zip</button>
     </div>
   );
 }

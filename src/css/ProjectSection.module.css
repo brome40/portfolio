@@ -67,7 +67,12 @@
   color: yellow;
   font-size: .9em;
 }
+
+.project button:disabled {
+  background-color: black;
+  color: grey;
+}
+
 .project div {
-  /* border: 1px solid darkcyan; */
   width: 10vw;
 }
