@@ -4,22 +4,22 @@
     "description": "Introduction to object-oriented programming in C#. Produced console and form applications using concepts such as classes, methods, and inheritance.",
     "projects": [
       {
-        "name": "Program 1 (Console)",
+        "name": "Construction Costs (Console)",
         "zipPath": "https://brome40.github.io/portfolio/projects/CIS199/Program1.zip",
         "gitLink": "https://github.com/brome40/CIS-199-Program-1"
       },
       {
-        "name": "Program 2 (Form)",
+        "name": "Compare Shipping Costs (Forms)",
         "zipPath": "https://brome40.github.io/portfolio/projects/CIS199/Program2.zip",
         "gitLink": "https://github.com/brome40/CIS-199-Program-2"
       },
       {
-        "name": "Program 3 (Form)",
+        "name": "Total Cost Calculator (Forms)",
         "zipPath": "https://brome40.github.io/portfolio/projects/CIS199/Program3.zip",
         "gitLink": "https://github.com/brome40/CIS-199-Program-3"
       },
       {
-        "name": "Program 4 (Console)",
+        "name": "Display Service Orders (Console)",
         "zipPath": "https://brome40.github.io/portfolio/projects/CIS199/Program4.zip",
         "gitLink": "https://github.com/brome40/CIS-199-Program-4"
       }
@@ -30,22 +30,22 @@
     "description": "Continuation of CIS 199. Produced more advanced console and form applications and included concepts like polymorphism and data structures.",
     "projects": [
       {
-        "name": "Program 1 (Console)",
+        "name": "LINQ-Filtered Parcels (Console)",
         "zipPath": "https://brome40.github.io/portfolio/projects/CIS200/Program1.zip",
         "gitLink": "https://github.com/brome40/CIS-200-Program-1"
       },
       {
-        "name": "Program 2 (Form)",
+        "name": "Parcel Creator (Form)",
         "zipPath": "https://brome40.github.io/portfolio/projects/CIS200/Program2.zip",
         "gitLink": "https://github.com/brome40/CIS-200-Program-2"
       },
       {
-        "name": "Program 3 (Form)",
+        "name": "Serialization Parcel Creator/Editor (Form)",
         "zipPath": "https://brome40.github.io/portfolio/projects/CIS200/Program3.zip",
         "gitLink": "https://github.com/brome40/CIS-200-Program-3"
       },
       {
-        "name": "Program 4 (Console)",
+        "name": "Generic-Filtered Parcels (Console)",
         "zipPath": "https://brome40.github.io/portfolio/projects/CIS200/Program4.zip",
         "gitLink": "https://github.com/brome40/CIS-200-Program-4"
       }
