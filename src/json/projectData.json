@@ -99,6 +99,16 @@
       }
     ]
   },
+  "CIS 420": {
+    "title": "CIS 420: CIS Development Project",
+    "description": "Continuation of CIS 320. Implementation and prototyping of the approved design to create a fully-functional information system.",
+    "projects": [
+      {
+        "name": "Use Case Diagrams",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS420/UseCases.png"
+      }
+    ]
+  },
   "CIS 443": {
     "title": "CIS 443: Analytics Programming",
     "description": "Introduction to Python programming, data visualization using libraries such as Pandas, and machine learning concepts such as sentiment analysis.",

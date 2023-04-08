@@ -80,11 +80,10 @@ export const Project = ({ name, zipPath, gitLink }) => {
   }
 
   if (zipPath.split('.').pop() === 'png') {
-    // require(zipPath);
     return (
-      <div className={styles.project}>
-        {/* <div>{name}</div>
-        <img src={zipPath}/> */}
+      <div className={styles.diagram}>
+        <div>{name}</div>
+        <img src={zipPath} alt={name}/>
       </div>
     );
   }
