@@ -80,10 +80,14 @@ export const Project = ({ name, zipPath, gitLink }) => {
   }
 
   if (zipPath.split('.').pop() === 'png') {
+    const handleImageClick = () => {
+      window.open(zipPath, '_blank');
+    }
+
     return (
       <div className={styles.diagram}>
-        <div>{name}</div>
-        <img src={zipPath} alt={name}/>
+        <div><a href={zipPath} target='_blank' rel='noreferrer'>{name}</a></div>
+        <img src={zipPath} alt={name} onClick={handleImageClick}/>
       </div>
     );
   }
