@@ -67,9 +67,35 @@
       }
     ]
   },
+  "CIS 443": {
+    "title": "CIS 443: Analytics Programming",
+    "description": "Introduction to Python programming, data visualization using libraries such as Pandas, and machine learning concepts such as sentiment analysis.",
+    "projects": [
+      {
+        "name": "Pi Estimator",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS443/Program1.ipynb",
+        "gitLink": ""
+      },
+      {
+        "name": "Grade Calculator",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS443/Program2.py",
+        "gitLink": ""
+      },
+      {
+        "name": "CSV Grade Calculator",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS443/Program3.zip",
+        "gitLink": ""
+      },
+      {
+        "name": "Sentiment Analysis",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS443/Program4.zip",
+        "gitLink": ""
+      }
+    ]
+  },
   "Independent React Projects": {
     "title": "Independent React Projects",
-    "description": "Non-university-related projects I completed while pursuing certifications on the Codecademy platform.",
+    "description": "React Javascript projects I completed independently or while pursuing certifications on the Codecademy platform.",
     "projects": [
       {
         "name": "Jamming Music App",
