@@ -72,6 +72,17 @@
       }
     ]
   },
+  "CIS 320": {
+    "title": "CIS 320: Systems Analysis and Design",
+    "description": "Developed and documented problem and design requirements for an information systems project supporting a non-profit.",
+    "projects": [
+      {
+        "name": "Navigation Diagram",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS320/NavDiagram.png",
+        "gitLink": ""
+      }
+    ]
+  },
   "CIS 411": {
     "title": "CIS 411: Web Application Development",
     "description": "Introduction to dynamic web applications using the ASP.NET MVC pattern. This involved many technologies such as C#, HTML, CSS, and Javascript.",
