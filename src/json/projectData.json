@@ -51,6 +51,27 @@
       }
     ]
   },
+  "CIS 310": {
+    "title": "CIS 310: Database Design",
+    "description": "Introduction to database systems, design concepts such as normalization, and SQL queries.",
+    "projects": [
+      {
+        "name": "Create Tables Query",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS310/CreateTables.sql",
+        "gitLink": ""
+      },
+      {
+        "name": "Multiple Filters Query",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS310/MultipleFilters.sql",
+        "gitLink": ""
+      },
+      {
+        "name": "Top Customer Query",
+        "zipPath": "https://brome40.github.io/portfolio/projects/CIS310/TopCustomer.sql",
+        "gitLink": ""
+      }
+    ]
+  },
   "CIS 411": {
     "title": "CIS 411: Web Application Development",
     "description": "Introduction to dynamic web applications using the ASP.NET MVC pattern. This involved many technologies such as C#, HTML, CSS, and Javascript.",

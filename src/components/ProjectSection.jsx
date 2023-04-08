@@ -44,7 +44,7 @@ export const Slideshow = ({ slides }) => {
       </div>
       <div className={styles.slideDesc}>{slideData?.description}</div>
       <div className={styles.slideProjects}>
-        {slideData?.projects.map((project, index) => (
+        {slideData?.projects?.map((project, index) => (
           <Project
             key={index}
             name={project.name}
